@@ -1,0 +1,13 @@
+Source: jvnet-parent
+Section: java
+Priority: extra
+Maintainer: Karol Auguštin <karol@augustin.pl>
+Build-Depends: bash
+Standards-Version: 3.9.3
+Vcs-Git: git://git.braintech.pl/jvnet-parent.git
+Vcs-Browser: http://git.braintech.pl/jvnet-parent.git
+
+Package: libjvnet-java
+Architecture: all
+Depends: openbci-core, openbci-amplifiers
+Description: Java.net parent POM file.
